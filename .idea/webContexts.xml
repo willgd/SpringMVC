@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/SpringDemo1/src/main/webapp/WEB-INF/View/UserUpadate.html" value="file://$PROJECT_DIR$/SpringDemo1/src/main/webapp/WEB-INF/View" />
+        <entry key="file://$PROJECT_DIR$/SpringDemo1/src/main/webapp/WEB-INF/View/UserUpdate.html" value="file://$PROJECT_DIR$/SpringDemo1/src/main/webapp/WEB-INF/View" />
+      </map>
+    </option>
+  </component>
+</project>

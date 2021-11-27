@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+          integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <title>用户信息修改</title>
+</head>
+<body>
+<form th:action="@{/user}" method="post" class="form-inline">
+    <input type="hidden" name="_method" value="put">
+    <input type="text" readonly="readonly" name="id" th:value="${user.id}"  placeholder="id">
+    <input type="text" name="name"  th:value="${user.name}" placeholder="name">
+    <input type="text" name="money" th:value="${user.money}" placeholder="money">
+    <button type="submit" class="btn btn-default">修改</button>
+
+</form>
+</body>
+</html>
